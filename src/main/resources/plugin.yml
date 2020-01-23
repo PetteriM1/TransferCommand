@@ -1,6 +1,6 @@
 name: TransferCommand
-version: "1.0"
-api: ["1.0.0"]
+version: "${pom.version}"
+api: ["2.0.0"]
 author: PetteriM1
 main: idk.plugin.transfercommand.Main
 
@@ -15,4 +15,4 @@ permissions:
     default: true
   transfer.others:
     description: "Allows player to use /transfer for other players"
-    default: OP
+    default: op

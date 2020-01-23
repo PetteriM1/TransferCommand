@@ -1,7 +1,7 @@
 package idk.plugin.transfercommand;
 
-import cn.nukkit.Player;
 import cn.nukkit.Server;
+import cn.nukkit.player.Player;
 import cn.nukkit.plugin.PluginBase;
 import cn.nukkit.command.Command;
 import cn.nukkit.command.CommandSender;
