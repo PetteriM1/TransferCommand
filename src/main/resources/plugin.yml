@@ -1,13 +1,13 @@
 name: TransferCommand
-version: "1.0"
+version: "1.0_custom"
 api: ["1.0.0"]
 author: PetteriM1
 main: idk.plugin.transfercommand.Main
 
 commands:
-  transfer:
+  switchserver:
     description: Transfer you to other server
-    usage: "/transfer <address> <port> <optional: player>"
+    usage: "/switchserver <address> <port> [optional: player]"
     permission: transfer.self
 permissions:
   transfer.self:
@@ -15,4 +15,4 @@ permissions:
     default: true
   transfer.others:
     description: "Allows player to use /transfer for other players"
-    default: OP
+    default: op

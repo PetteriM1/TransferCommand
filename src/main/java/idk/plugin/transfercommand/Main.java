@@ -22,7 +22,7 @@ public class Main extends PluginBase implements Listener {
     public boolean onCommand(CommandSender sender, Command cmd, String commandLabel, String[] args) {
         if (sender instanceof Player) {
             Player p = (Player) sender;
-            if (cmd.getName().equalsIgnoreCase("transfer")) {
+            if (cmd.getName().equalsIgnoreCase("switchserver")) {
                 if (args.length > 0 && args.length < 4) {
                     this.address = args[0];
                 }
@@ -79,7 +79,7 @@ public class Main extends PluginBase implements Listener {
                 }
                 return false;
             }
-        } else if (cmd.getName().equalsIgnoreCase("transfer") && args.length == 3) {
+        } else if (cmd.getName().equalsIgnoreCase("switchserver") && args.length == 3) {
             try {
                 this.port = Integer.parseInt(args[1]);
             } catch (NumberFormatException ex) {

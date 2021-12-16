@@ -6,7 +6,7 @@
 
     <groupId>idk.plugin.transfercommand</groupId>
     <artifactId>TransferCommand</artifactId>
-    <version>1.0</version>
+    <version>1.0_custom</version>
     <build>
         <defaultGoal>install</defaultGoal>
         <sourceDirectory>${basedir}/src/main/java</sourceDirectory>
